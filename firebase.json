@@ -1,0 +1,11 @@
+{
+  "hosting": [
+    {
+      "target": "hciproject",
+      "source": ".",
+      "frameworksBackend": {
+        "region": "europe-west1"
+      }
+    }
+  ]
+}

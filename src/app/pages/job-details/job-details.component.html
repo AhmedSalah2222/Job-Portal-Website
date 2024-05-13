@@ -1,0 +1,108 @@
+<!-- <div class="container-fluid body-background">
+  <div class="container pt-5">
+      <div class>
+          <div class="col-8 job">
+            <div *ngFor="let job of jobs">
+              <div class="row">
+                  <div class="col-12">
+                    <div class="card">
+                          <div class="card-body">
+                              <div class="row">
+                                  <div class="col-8">
+                                      <div class="row">
+                                          <div class="col-12">
+                                              <h6 style="margin-bottom: 0;">{{ job.job_title }}</h6>
+                                              <a>{{ job.responsibilities }}</a>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                                  <div class="col-4 row">
+                                      <a>{{ job.qualifications }}</a>
+                                  </div>
+                                  <div class="col-4 row">
+                                      <a>{{ job.benefits }}</a>
+                                  </div>
+                                  <hr>
+                                  <div class="row pt-1">
+                                    <div class="col-3">
+                                      <small>Few Hours Ago</small>
+                                    </div>
+                                    <div class="col-2 text-end">
+                                    </div>
+                                    <div class="col-7 text-end">
+                                      <input type="file" (change)="onFileSelected($event)">
+                                      <button class="btn btn-outline-primary round-button mx-2"
+                                      type="button" (click)="onUpload()">Apply</button>
+                                    </div>
+                                  </div>
+
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+          </div>
+        </div>
+          <div class="col-4 filter">
+              <div class="row">
+                  <div class="col-12">
+                      <div class="card">
+                          <div class="card-body">
+                              <h6 class="text-center">Reviews</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="row pt-3">
+                  <div class="col-12">
+                      <div class="card">
+                          <div class="card-body">
+                              <h6 class="text-center">Salary Insights</h6>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div> -->
+
+
+
+
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">{{selectedJob.job_title}}</h1>
+            <div class="details-section">
+              <h2>Qualifications :</h2>
+              <p class="card-text">{{selectedJob.qualifications}}</p>
+            </div>
+            <div class="details-section">
+              <h2>Responsibilities :</h2>
+              <p class="card-text">{{selectedJob.responsibilities}}</p>
+            </div>
+            <div class="details-section">
+              <h2>Benefits :</h2>
+              <p class="card-text">{{selectedJob.benefits}}</p>
+            </div>
+          </div>
+        </div>
+        <div class="row pt-1">
+          <div class="col-3">
+            <small>Few Hours Ago</small>
+          </div>
+          <div class="col-2 text-end">
+          </div>
+          <div class="col-7 text-end">
+            <input type="file" (change)="onFileSelected($event)">
+            <button class="btn btn-outline-primary round-button mx-2"
+            type="button" (click)="onUpload()">Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+

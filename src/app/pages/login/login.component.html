@@ -1,0 +1,27 @@
+<form class="contaner">
+    <h1>Login</h1>
+
+    <div class="input-control form-group" id="div_email">
+      <input
+                placeholder="Please enter your email"
+                type="email"
+                class="form-control"
+                name="email"
+                [(ngModel)]="email"
+              />
+    </div>
+
+    <div class="input-control form-group" id="div_pss">
+      <input
+                placeholder="Please enter your password"
+                type="password"
+                class="form-control"
+                name="password"
+                [(ngModel)]="password"
+              />
+    </div>
+
+    <button (click)="login()" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
+                    type="submit" value="Submit">Submit </button>
+
+  </form>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "hciproject-b8011": {
+      "hosting": {
+        "hciproject": [
+          "hciproject-b8011"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "hciproject-b8011"
+  }
+}

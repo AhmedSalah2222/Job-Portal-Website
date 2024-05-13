@@ -1,0 +1,40 @@
+form {
+    text-align: center;
+  }
+  
+  label{
+    margin-left: -10%;
+  }
+  
+  #pss{
+    margin-left: -8%;
+  }
+  
+  #div_email{
+    align-content: center;
+    max-width: 600px;
+    margin-left: 30%;
+    margin-top: 3%;
+  }
+  
+  #div_pss{
+    align-content: center;
+    max-width: 600px;
+    margin-left: 30%;
+    margin-top: 2%;
+  }
+  
+  #submit_btn{
+    background-color: #333333;
+    color: #B2AC32;
+    /* position: absolute;
+    top: 25%; */
+    margin-top: 1%;
+    font-weight: bold;
+  
+  }
+  
+  #submit_btn:hover{
+    background-color: #B2AC32;
+    color: #333333;
+  }

@@ -1,0 +1,76 @@
+<div class="container">
+    <h3>Create New Job</h3>
+    <div class="row">
+        <!-- <div class="col-md-6 mb-4"> -->
+
+          <div data-mdb-input-init class="form-outline">
+            <input type="text" id="jobtitle" class="form-control form-control-lg"
+              [(ngModel)]="job_title" name="jobtitle" />
+            <label class="form-label" for="jobtitle">Job Title</label>
+          </div>
+
+        <!-- </div> -->
+      </div>
+
+      <div class="row">
+        <!-- <div class="col-md-6 mb-4"> -->
+          <div data-mdb-input-init class="form-outline">
+            <textarea type="text" id="JobDescription" class="form-control form-control-lg"
+              [(ngModel)]="brief_job_description" name="JobDescription" rows="3" ></textarea>
+            <label class="form-label" for="JobDescription">Brief Description</label>
+          </div>
+        <!-- </div> -->
+      </div>
+
+      <div class="row">
+        <!-- <div class="col-md-6 mb-4 d-flex align-items-center"> -->
+
+          <div data-mdb-input-init class="form-outline datepicker w-100">
+
+            <input type="text" id="responsibilities" class="form-control form-control-lg"
+              [(ngModel)]="responsibilities" name="responsibilities" />
+            <label for="responsibilities" class="form-label">Responsibilities</label>
+          </div>
+
+        <!-- </div> -->
+
+      </div>
+
+      <div class="row">
+        <!-- <div class="col-md-6 mb-4 pb-2"> -->
+          <div data-mdb-input-init class="form-outline">
+
+            <input type="text" id="qualifications" class="form-control form-control-lg"
+              [(ngModel)]="qualifications" name="qualifications" />
+            <label for="qualifications" class="form-label">Qualifications</label>
+          </div>
+
+        <!-- </div> -->
+        <div data-mdb-input-init class="form-outline">
+          <input type="text" id="benefits" class="form-control form-control-lg"
+            [(ngModel)]="benefits" name="benefits" />
+          <label for="benefits" class="form-label">Benefits</label>
+        </div>
+
+
+        <div data-mdb-input-init class="form-outline">
+          <input type="text" id="location" class="form-control form-control-lg"
+            [(ngModel)]="location" name="location" />
+          <label for="location" class="form-label">Location</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div data-mdb-input-init class="form-outline">
+          <input type="text" id="company_name" class="form-control form-control-lg"
+            [(ngModel)]="company_name" name="company_name" />
+          <label for="company_name" class="form-label">Company name</label>
+        </div>
+      </div>
+
+
+
+      <div class="mt-4 pt-2">
+        <button  (click)="CreateJob()" class="btn btn-primary btn-lg">create job </button>
+      </div>
+</div>
